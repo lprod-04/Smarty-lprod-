@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chat-box {
+  width: 100%;
+  max-width: 600px;
+  background: #1e293b;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.message {
+  margin: 0.5rem 0;
+}
+.message.you { color: #60a5fa; text-align: right; }
+.message.smarty { color: #22c55e; text-align: left; }
+input, button {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 1rem;
+}
